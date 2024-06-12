@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Juegos</title>
+    <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+
+    <div class="container">
+        <h1>Menú de Juegos</h1>
+        <h2>Selecciona un modo de juego:</h2>
+        <div class="button-frame">
+            <button class="button" onclick="selectMode(1)">Quiz de Elementos</button>
+            <button class="button" onclick="selectMode(2)">Clasificación de Elementos</button>
+            <button class="button" onclick="selectMode(3)">Tabla Interactiva</button>
+            <button class="button" onclick="selectMode(4)">Historia de los Elementos</button>
+        </div>
+    </div>
+
+    <script>
+        function selectMode(mode) {
+            switch (mode) {
+                case 1:
+                    window.location.href = "file:///C:/Users/felip/OneDrive/Documentos/VS/elementosJS/interfaz/modo1/vista1.html";
+                    break;
+                case 2:
+                    window.location.href = "file:///C:/Users/felip/OneDrive/Documentos/VS/elementosJS/interfaz/modo2/vista2.html";
+                    break;
+                case 3:
+                    window.location.href = "file:///C:/Users/felip/OneDrive/Documentos/VS/elementosJS/interfaz/modo3/vista3.html";
+                    break;
+                case 4:
+                    window.location.href = "file:///C:/Users/felip/OneDrive/Documentos/VS/elementosJS/interfaz/modo4/vista4.html";
+                    break;
+                default:
+                    alert("Modo de juego no válido.");
+            }
+        }
+    </script>
+
+</body>
+</html>

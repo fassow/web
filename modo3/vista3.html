@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Periódica Interactiva</title>
+    <link rel="stylesheet" href="estilo3.css">
+</head>
+<body>
+    <h1>Tabla Periódica Interactiva</h1>
+    <div class="controls">
+        <button id="transition-metals-btn" onclick="toggleHighlight('transition-metals')">Metales de transición</button>
+        <button id="representative-elements-btn" onclick="toggleHighlight('representative-elements')">Elementos representativos</button>
+        <button id="noble-gases-btn" onclick="toggleHighlight('noble-gases')">Gases nobles</button>
+        <button id="inner-transition-metals-btn" onclick="toggleHighlight('inner-transition-metals')">Elementos de transición interna</button>
+    </div>
+    <div class="exit-button-container">
+        <button class="button exit-button" id="exit-button">Salir</button>
+    </div>
+    <div class="table-container">
+        <div class="table"></div>
+    </div>
+    <div id="element-details" class="element-details" style="display: none;">
+        <p id="element-details-content"></p>
+    </div>
+    <script src="modo3.js"></script>
+</body>
+</html>
