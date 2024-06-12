@@ -189,7 +189,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("score").innerText = `Puntaje: ${score}`; // Mostrar el puntaje inicial en la interfaz
     document.getElementById("exit-button").addEventListener("click", () => {
         // Acción para salir del juego, puede ser redirigir a otra página o cerrar la ventana
-        window.location.href = 'https://github.com/fassow/web/blob/probando1/index.html'; // Redirigir a la página principal
+        window.location.href = 'https://github.com/fassow/web/web.html // Redirigir a la página principal
     });
 });
 
