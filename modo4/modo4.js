@@ -178,5 +178,5 @@ startGame();
 
 document.getElementById("exit-button").addEventListener("click", () => {
   // Acción para salir del juego, puede ser redirigir a otra página o cerrar la ventana
-  window.location.href = 'file:///C:/Users/felip/OneDrive/Documentos/VS/elementosJS/interfaz/index.html'; // Redirigir a la página principal
+  window.location.href = 'https://fassow.github.io/web/index.html'; // Redirigir a la página principal
 });
