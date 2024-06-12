@@ -165,5 +165,6 @@ function getElementDetailsText(element) {
 }
 
 document.getElementById("exit-button").addEventListener("click", () => {
+    console.log('Saliendo...')
     window.location.href = 'https://fassow.github.io/web/index.html';
 });
