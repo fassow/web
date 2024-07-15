@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de la Tabla Periódica</title>
+    <link rel="stylesheet" href="estilo5.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simbolo y Número de oxidación</h1>
+        <div id="game">
+            <p id="question"></p>
+            <form id="answerForm">
+                <label for="symbol">Símbolo:</label>
+                <input type="text" id="symbol" name="symbol" required>
+                <label for="oxidation">Número de oxidación:</label>
+                <input type="text" id="oxidation" name="oxidation" required>
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="result"></p>
+        </div>
+        <div class="exit-button-container">
+        <button class="button exit-button" id="exit-button">Salir</button>
+        </div>
+    </div>
+    <script src="modo5.js"></script>
+</body>
+</html>
