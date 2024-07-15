@@ -75,5 +75,5 @@ document.getElementById('answerForm').addEventListener('submit', checkAnswer);
 setQuestion();
 
 document.getElementById("exit-button").addEventListener("click", () => {
-  window.location = '/interfaz/index.html'; // Redirigir a la página principal
+  window.location = 'https://fassow.github.io/web/index.html'; // Redirigir a la página principal
 });
