@@ -138,7 +138,7 @@ function startGame() {
 
 function showQuestion() {
   if (currentQuestionIndex >= questionIndices.length) {
-    window.location.href = '/interfaz/index.html'; // Redirigir a la página principal cuando se completen todas las preguntas
+    window.location.href = 'https://fassow.github.io/web/index.html'; // Redirigir a la página principal cuando se completen todas las preguntas
     return;
   }
   const question = questions[questionIndices[currentQuestionIndex]];
@@ -202,5 +202,5 @@ startGame();
 
 exitButton.addEventListener("click", () => {
   // Acción para salir del juego, puede ser redirigir a otra página o cerrar la ventana
-  window.location.href = '/interfaz/index.html'; // Redirigir a la página principal
+  window.location.href = 'https://fassow.github.io/web/index.html'; // Redirigir a la página principal
 });
