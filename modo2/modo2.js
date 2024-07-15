@@ -213,7 +213,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("score").innerText = `Puntaje: ${score}`; // Mostrar el puntaje inicial en la interfaz
     document.getElementById("exit-button").addEventListener("click", () => {
         // Acción para salir del juego, puede ser redirigir a otra página o cerrar la ventana
-        window.location.href = '/interfaz/index.html'; // Redirigir a la página principal
+        window.location.href = 'https://fassow.github.io/web/index.html'; // Redirigir a la página principal
     });
 });
 for (let i = 0; i < 4; i++) {
